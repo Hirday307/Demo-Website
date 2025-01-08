@@ -1,0 +1,332 @@
+#quote{
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 145, 0);
+    text-shadow: 5px 5px  #04040485;
+    animation: fading 3s ease-in 1;
+    
+}
+*{
+    background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    
+}
+img{
+    border: hidden;
+    border-radius: 15% ;
+    animation: fading 3s ease-in 1;
+    
+}
+
+
+#beginning{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    text-align: center;
+    color: rgb(255, 145, 0);   
+    animation: fading 3s ease-in 1;
+   
+}
+
+#beginning div:hover{
+
+border-radius: 15%;
+font-size: 20px;
+animation: shadowing 1s ease-in 1;
+background-color: #00000083;
+scale: 1.01;
+box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+}
+
+#participation{
+    border:2px hidden;
+    border-radius: 15%;
+    margin: 10px; background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    text-align: left;
+    color: rgb(255, 145, 0);
+    animation: fading 3s ease-in 1;
+}
+
+#participation div:hover{
+   
+    border-radius: 15%;
+    animation: shadowing 1s ease-in 1;
+    font-size: 20px;
+    scale: 1.01;
+    background-color: #00000083;
+    box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    }
+
+h1{
+    color: rgb(255, 145, 0);
+     text-align: center;
+     font-size: 50px;
+     animation: fading 3s ease-in 1;
+}
+
+#luckchikaluck{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    color: rgb(255, 145, 0);
+    position: relative;
+    border-style: hidden;
+    margin: 10px;
+    height: 267px;
+    width:100%;
+    z-index: 1;
+    animation: fading 3s ease-in 1;
+}
+
+#luckchikaluck div:hover{
+    
+    border-radius: 15%;
+    animation: shadowing 1s ease-in 1;
+    font-size: 20px;
+    scale: 1.01;
+    background-color: #00000083;
+    box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+}
+#luckchikaluck img{
+    position:absolute;
+    top: 0;
+    right: 17px;
+    width:283px;
+    height: 270px; 
+    animation: fading 3s ease-in 1;
+}
+
+#luckchikaluck div{
+    position:absolute;
+   border:2px hidden;
+    width:calc(70%);
+    font-size: 20px;
+    top:0;
+    left:0;
+}
+#goldbeauty{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    color: rgb(255, 145, 0);
+    position: relative;
+    border-style: hidden;
+    margin: 20px;
+    height: 267px;
+    width:100%;  
+    z-index: 1;
+    animation: fading 3s ease-in 1;
+}
+
+#goldbeauty div:hover{
+
+border-radius: 15%;
+animation: shadowing 1s ease-in 1;
+font-size: 20px;
+scale: 1.01;
+background-color: #00000083;
+box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    }
+#goldbeauty img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:382px;
+    height: 270px;  
+    animation: fading 3s ease-in 1;
+}
+#goldbeauty div{
+    position:absolute;
+   border:2px hidden;
+    width:calc(70%);
+    font-size: 20px;
+    top:0;
+    right:0;
+}
+#redcloud{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    color: rgb(255, 145, 0);
+    position: relative;
+    border-style: hidden;
+    margin: 20px;
+    height: 267px;
+    width:100%;  
+    z-index: 1;
+    animation: fading 3s ease-in 1;
+}
+
+#redcloud div:hover{
+ 
+border-radius: 15%;
+animation: shadowing 1s ease-in 1;
+font-size: 20px;
+scale: 1.01;
+background-color: #00000083;
+box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    }
+#redcloud img{
+    position:absolute;
+    top: 0;
+  right: 39px;
+    width:318px;
+    height: 270px;  
+    animation: fading 3s ease-in 1;
+}
+#redcloud div{
+    position:absolute;
+   border:2px hidden;
+    width:calc(70%);
+    font-size: 20px;
+    top:0;
+    left:0;
+}
+#silverpeg{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    color: rgb(255, 145, 0);
+    position: relative;
+    border-style: hidden;
+    margin: 20px;
+    height: 267px;
+    width:100%;  
+    z-index: 1;
+    animation: fading 3s ease-in 1;
+}
+
+#silverpeg div:hover{
+   
+    border-radius: 15%;
+    animation: shadowing 1s ease-in 1;
+     font-size: 20px;
+     scale: 1.01;
+     background-color: #00000083;
+    box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    }
+#silverpeg img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:380px;
+    height: 270px;  
+    animation: fading 3s ease-in 1;
+}
+#silverpeg div{
+    position:absolute;
+   border:2px hidden;
+    width:calc(70%);
+    font-size: 20px;
+    top:0;
+    right:0;
+}
+
+#thnx{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    color: rgb(255, 145, 0);
+    position: relative;
+    border-style: hidden;
+    margin: 20px;
+    height: 400px;
+    width:100%;  
+    z-index: 1;
+    animation: fading 3s ease-in 1;
+}
+
+#thnx div:hover{
+ 
+border-radius: 15%;
+animation: shadowing 1s ease-in 1;
+font-size: 20px;
+scale: 1.01;
+background-color: #00000083;
+box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    }
+#thnx img{
+    position:absolute;
+    top: 85px;
+    left:533px;
+    width:410px;
+    height: 270px;  
+    animation: fading 3s ease-in 1;
+}
+#thnx div{
+    position:absolute;
+   border:2px hidden;
+    width:calc(100%);
+    font-size: 20px;
+    top:0;
+    right:0;
+    text-align: center;
+}
+footer{
+    color: rgb(255, 145, 0);
+    font-size: 50px;
+}
+
+
+div{
+    padding:15px;
+}
+
+
+@keyframes fading  {
+    0%{opacity: 0;
+    scale: 1.2;}
+    100%{opacity: 100;
+    scale: 1;}   
+}
+@keyframes shadowing {
+0%{
+    background-color: #00000000;
+    box-shadow: none;
+text-shadow:  none;
+scale: 1;
+}
+100%{
+    background-color: #00000083;
+    box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+scale: 1.01;
+}
+}

@@ -1,0 +1,183 @@
+#quote{
+    position: relative;
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 145, 0);
+    text-shadow: 5px 5px  #04040485;
+    animation: fading 3s ease-in 1;
+    
+    
+}
+*{
+    background-repeat:no-repeat;
+    margin: 25px 25px;
+    padding: 0;
+    background-size: 100% 100%;
+    
+}
+img{
+    border: hidden;
+    border-radius: 15% ;
+    animation: fading 3s ease-in 1;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#beginning div{padding: 15px;}
+#beginning{
+    border: 2px ;
+    border-radius: 15%;
+    margin-top: 10px;
+    border-style: hidden;
+    
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 40 px;
+    text-align: center;
+    color: rgb(255, 145, 0);   
+    animation: fading 3s ease-in 1;
+   
+}
+
+#beginning div:hover{
+
+border-radius: 15%;
+animation: shadowing 1s ease-in 1;
+background-color: #00000083;
+scale: 1.01;
+box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+}
+#skillinschool div
+{
+    padding-left:75px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#skillinschool{
+    border:2px hidden;
+    border-radius: 15%;
+    margin: 10px;
+  
+    background-color: #130c0c36;
+    font-style: oblique;
+    font-size: 16 px;
+    text-align: left;
+    color: rgb(255, 145, 0);
+    animation: fading 3s ease-in 1;
+}
+
+#skillinschool div:hover{
+   
+    border-radius: 15%;
+   
+    animation: shadowing 1s ease-in 1;
+    font-size: 17px;
+    scale: 1.01;
+    background-color: #00000083;
+    box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    }
+
+    #skilloutschool div
+{
+    padding-left:75px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+    #skilloutschool{
+        border:2px hidden;
+        border-radius: 15%;
+        margin: 10px;
+      
+        background-color: #130c0c36;
+        font-style: oblique;
+        font-size: 16 px;
+        text-align: left;
+        color: rgb(255, 145, 0);
+        animation: fading 3s ease-in 1;
+    }
+    
+    #skilloutschool div:hover{
+       
+        border-radius: 15%;
+       
+        animation: shadowing 1s ease-in 1;
+        font-size: 17px;
+        scale: 1.01;
+        background-color: #00000083;
+        box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+    text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+        }  
+        #current div
+        {
+            padding-left:75px;
+            padding-top:30px;
+            padding-bottom:30px;
+        }
+        #current {
+            border: 2px ;
+            border-radius: 15%;
+            margin-top: 10px;
+            border-style: hidden;
+            background-color: #130c0c36;
+            font-style: oblique;
+            font-size: 16px px;
+            color: rgb(255, 145, 0);
+            position: relative;
+            border-style: hidden;
+            margin: 20px;
+            height: 267px;
+            width:100%;  
+            z-index: 1;
+            animation: fading 3s ease-in 1;
+        }
+        
+        #current div:hover{
+           
+            border-radius: 15%;
+            animation: shadowing 1s ease-in 1;
+             font-size: 18px;
+             background-color: #00000083;
+            box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+        text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+            }  
+
+
+
+
+
+    @keyframes fading  {
+        0%{opacity: 0;
+        scale: 1.2;}
+        100%{opacity: 100;
+        scale: 1;}   
+    }
+    @keyframes shadowing {
+    0%{
+        background-color: #00000000;
+        box-shadow: none;
+    text-shadow:  none;
+    scale: 1;
+    }
+    100%{
+        background-color: #00000083;
+        box-shadow: 5px 5px 5px rgba(255, 145, 0, 0.663);
+    text-shadow:  5px 5px 5px rgba(255, 145, 0, 0.6);
+    scale: 1.01;
+    }
+    }
+    @keyframes move {
+        0%{top:-100px;
+           
+            }
+          100%{top:0px;
+              
+              }
+        
+    }
